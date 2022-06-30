@@ -11,7 +11,10 @@ void push(int x){
 }
 
 int  pop(){
-	return stack[top--];
+	if (top==-1){
+		return 1;}
+	else
+		return stack[top--];
 	return 0;
 }
 
