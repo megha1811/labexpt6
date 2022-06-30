@@ -22,7 +22,7 @@ int main()
 {
 	char exp[20];
 	char *ptr;
-	int n1,n2,n3,num;
+	int n1,n2,n3;
 	printf("Enter the expression :");
 	scanf("%s",exp);
 	ptr=exp;
