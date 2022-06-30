@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-# define n 5
+# define n 10
 
 int top=-1;
 int stack[n];
