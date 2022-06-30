@@ -25,24 +25,25 @@ int main()
 	ptr=exp;
 	while (*ptr !='\0'){
 		if (isdigit(*ptr)){
-			num=*ptr -48;
-			push(num);
+			//num=*ptr -48;
+			//push(num);
+			push(*ptr);
 		}
 		else{
 			n1=pop();
 			n2=pop();
 			switch(*ptr){
 				case '+':
-					 n3=n1 +n2;
+					 n3=n2+n1;
 					 break;
 				case '-':
-					n3= n1 - n2;
+					n3=n2-n1;
 					break;
 				case '*':
-					n3 =n1 * n2;
+					n3 =n2*n1;
 					break;
 				case '/':
-					n3 = n1/n2;
+					n3 = n2/n1;
 					break;
 			}
 			push (n3);
