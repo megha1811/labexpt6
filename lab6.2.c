@@ -18,7 +18,7 @@ int  pop(){
 int main()
 {
 	char exp[20];
-	char *e;
+	char *ptr;
 	int n1,n2,n3,num;
 	printf("Enter the expression :");
 	scanf("%s",exp);
